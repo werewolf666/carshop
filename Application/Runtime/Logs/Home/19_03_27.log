@@ -1,0 +1,646 @@
+[ 2019-03-27T16:37:39+08:00 ] 127.0.0.1 /qichezuli/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000989s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004582s ]
+
+[ 2019-03-27T16:56:45+08:00 ] 127.0.0.1 /carshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2019-03-27T16:58:41+08:00 ] 127.0.0.1 /carshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2019-03-27T17:55:29+08:00 ] 127.0.0.1 /carshop/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+
+[ 2019-03-27T17:56:18+08:00 ] 127.0.0.1 /carshop/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/urlredirect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jbox.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jQselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/search.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/slides.min.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000242s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005077s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004417s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/functions.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jquery.touchSlider.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000221s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100856-61052986513823272.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100905-58394173160195352.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100919-38210531882941720.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101641-64434476010501384.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+ERR: 非法操作:js
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101106-46672245394438504.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101649-98561866441741584.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101634-35172443836927412.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142600-629205096.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142607-500806644.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142611-1195336428.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142615-1490638500.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804152838-947160084.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2019-03-27T17:56:45+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/er.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/functions.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000121s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/search.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000131s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/menu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jQselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/slides.min.jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/style/jquery.touchSlider.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+ERR: 非法操作:style
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100856-61052986513823272.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100905-58394173160195352.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804112945-946058568.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804112838-1533884976.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100919-38210531882941720.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804112848-251193540.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+ERR: 非法操作:js
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101641-64434476010501384.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142611-1195336428.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142600-629205096.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101106-46672245394438504.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804152838-947160084.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101649-98561866441741584.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142607-500806644.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101634-35172443836927412.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142615-1490638500.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+
+[ 2019-03-27T17:56:46+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/er.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+ERR: 非法操作:js
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101106-46672245394438504.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101641-64434476010501384.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100856-61052986513823272.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101649-98561866441741584.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100905-58394173160195352.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101634-35172443836927412.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100919-38210531882941720.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142607-500806644.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142600-629205096.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804152838-947160084.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142611-1195336428.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/er.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142615-1490638500.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100856-61052986513823272.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2019-03-27T18:00:07+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100905-58394173160195352.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810100919-38210531882941720.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/js/jquery.lightbox-0.5.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: 非法操作:js
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804112945-946058568.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804112838-1533884976.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804112848-251193540.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101634-35172443836927412.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101641-64434476010501384.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804152838-947160084.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101649-98561866441741584.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142607-500806644.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150810101106-46672245394438504.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142611-1195336428.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142600-629205096.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/er.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2019-03-27T18:00:08+08:00 ] 127.0.0.1 /carshop/index.php/home/index/images/20150804142615-1490638500.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+
