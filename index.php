@@ -9,6 +9,9 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
+//设置字符集
+header('Content-type:text/html;charset=utf8');
+
 // 应用入口文件
 
 // 检测PHP环境
@@ -27,7 +30,7 @@ define('SITEURL','http://1008.com/carshop/');
 define('ADMIN_PUC',SITEURL.'Application/Admin/Public');
 
 //定义前台资源目录
-define('HOME_PUC',SITEURL.'Application/Home/Public');
+define('HOME_PUC',SITEURL.'Application/Home/Public/pc');
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 

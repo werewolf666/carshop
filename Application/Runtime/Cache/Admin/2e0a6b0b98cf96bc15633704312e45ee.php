@@ -34,49 +34,49 @@
         </div>
         <div class="sidebar-content">
             <ul class="sidebar-list">
-           <!--
-            <?php $menu=session('menu'); foreach ($menu as $k => $v): ?>
-                <li>
-                    <a href="#"><i class="icon-font">&#xe003;</i><?php echo $v['pri_name'];?></a>
-                    <ul class="sub-menu">
-                    <?php foreach ($v['sub'] as $k1 => $v1): ?>
-                        <li><a href="<?php echo U($v1['mname'].'/'.$v1['cname'].'/'.$v1['aname']);?>"><i class="icon-font">&#xe008;</i><?php echo $v1['pri_name'];?></a></li>
-                    <?php endforeach;?>
-                    </ul>
-                </li>
-            <?php endforeach;?>
-                -->   
-                   
-                <li>
-                    <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
-                    <ul class="sub-menu">
-                        <li><a href="/carshop/index.php/Admin/Cate/lst"><i class="icon-font">&#xe008;</i>栏目管理</a></li>
-                        <li><a href="/carshop/index.php/Admin/Article/lst"><i class="icon-font">&#xe005;</i>文章管理</a></li>
-                        <li><a href="/carshop/index.php/Admin/Message/lst"><i class="icon-font">&#xe004;</i>留言管理</a></li>
-                        <li><a href="/carshop/index.php/Admin/Job/lst"><i class="icon-font">&#xe012;</i>求职信息</a></li>
-                        <li><a href="/carshop/index.php/Admin/Link/lst"><i class="icon-font">&#xe052;</i>友情链接</a></li>
-                        <li><a href="design.html"><i class="icon-font">&#xe033;</i>广告管理</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><i class="icon-font">&#xe018;</i>系统管理</a>
-                    <ul class="sub-menu">
-                        <li><a href="/carshop/index.php/Admin/System/lst"><i class="icon-font">&#xe017;</i>系统设置</a></li>
-                        <li><a href="/carshop/index.php/Admin/Admin/lst"><i class="icon-font">&#xe006;</i>管理员管理</a></li>
-                        <li><a href="/carshop/index.php/Admin/Privilege/lst"><i class="icon-font">&#xe037;</i>权限列表</a></li>
-                        <li><a href="/carshop/index.php/Admin/Role/lst"><i class="icon-font">&#xe046;</i>角色列表</a></li>
-                        <li><a href="system.html"><i class="icon-font">&#xe045;</i>数据还原</a></li>
-                    </ul>
-                </li>
-             
+                <!--
+                            <?php $menu=session('menu'); foreach ($menu as $k => $v): ?>
+                                <li>
+                                    <a href="<?php echo U($v['mname'].'/'.$v['cname'].'/'.$v['aname']);?>"><i class="icon-font">&#xe003;</i><?php echo $v['pri_name'];?></a>
+                                    <ul class="sub-menu">
+                                    <?php foreach ($v['sub'] as $k1 => $v1): ?>
+                                        <li><a href="<?php echo U($v1['mname'].'/'.$v1['cname'].'/'.$v1['aname']);?>"><i class="icon-font">&#xe008;</i><?php echo $v1['pri_name'];?></a></li>
+                                    <?php endforeach;?>
+                                    </ul>
+                                </li>
+                            <?php endforeach;?>
+                                -->
+
+                    <li>
+                        <a href="#"><i class="icon-font">&#xe003;</i>常用操作</a>
+                        <ul class="sub-menu">
+                            <li><a href="/carshop/index.php/Admin/Cate/lst"><i class="icon-font">&#xe008;</i>栏目管理</a></li>
+                            <li><a href="/carshop/index.php/Admin/Article/lst"><i class="icon-font">&#xe005;</i>文章管理</a></li>
+                            <li><a href="/carshop/index.php/Admin/Message/lst"><i class="icon-font">&#xe004;</i>留言管理</a></li>
+                            <li><a href="/carshop/index.php/Admin/Job/lst"><i class="icon-font">&#xe012;</i>求职信息</a></li>
+                            <li><a href="/carshop/index.php/Admin/Link/lst"><i class="icon-font">&#xe052;</i>友情链接</a></li>
+                            <li><a href="design.html"><i class="icon-font">&#xe033;</i>广告管理</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon-font">&#xe018;</i>系统管理</a>
+                        <ul class="sub-menu">
+                            <li><a href="/carshop/index.php/Admin/System/lst"><i class="icon-font">&#xe017;</i>系统设置</a></li>
+                            <li><a href="/carshop/index.php/Admin/Admin/lst"><i class="icon-font">&#xe006;</i>管理员管理</a></li>
+                            <li><a href="/carshop/index.php/Admin/Privilege/lst"><i class="icon-font">&#xe037;</i>权限列表</a></li>
+                            <li><a href="/carshop/index.php/Admin/Role/lst"><i class="icon-font">&#xe046;</i>角色列表</a></li>
+                            <li><a href="system.html"><i class="icon-font">&#xe045;</i>数据还原</a></li>
+                        </ul>
+                    </li>
+
             </ul>
-        </div>
     </div>
+</div>
     <!--/sidebar-->
     <div class="main-wrap">
 
         <div class="crumb-wrap">
-            <div class="crumb-list"><i class="icon-font"></i><a href="/jscss/admin">首页</a><span class="crumb-step">&gt;</span><span class="crumb-name">管理员管理</span></div>
+            <div class="crumb-list"><i class="icon-font"></i><a href="/carshop/index.php/Admin/index/index">首页</a> <span class="crumb-step">&gt;</span><span class="crumb-name">管理员管理</span></div>
         </div>
         <div class="search-wrap">
             <div class="search-content">

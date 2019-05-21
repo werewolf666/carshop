@@ -1,0 +1,18 @@
+[ 2019-05-21T11:14:31+08:00 ] 127.0.0.1 /carshop/Application/Home/Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Application
+
+[ 2019-05-21T11:14:31+08:00 ] 127.0.0.1 /carshop/Application/Home/Public/pc/style/validForm/FormValid.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005377s ]
+ERR: 无法加载模块:Application
+
+[ 2019-05-21T11:14:31+08:00 ] 127.0.0.1 /carshop/Application/Home/Public/pc/style/jbox/jquery.jBox-2.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:Application
+

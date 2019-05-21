@@ -1,0 +1,676 @@
+[ 2019-05-09T17:57:09+08:00 ] 127.0.0.1 /carshop/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001035s ]
+
+[ 2019-05-09T17:57:12+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2019-05-09T17:57:12+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2019-05-09T17:57:32+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2019-05-09T17:57:33+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2019-05-09T17:57:43+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_admin` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined index: validate C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cs_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+
+[ 2019-05-09T17:57:46+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2019-05-09T17:57:46+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2019-05-09T17:57:57+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/verify/0.5899878788582774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2019-05-09T17:58:03+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_admin` [ RunTime:0.0081s ]
+NOTIC: [8] Undefined index: validate C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT * FROM `cs_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_role` [ RunTime:0.0074s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_privilege` [ RunTime:0.0099s ]
+SQL: SELECT `rolename`,`pri_id_list` FROM `cs_role` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cs_privilege` WHERE ( parentid=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cs_privilege` WHERE ( parentid=17 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cs_privilege` WHERE ( parentid=32 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cs_privilege` WHERE ( parentid=44 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cs_privilege` WHERE ( parentid=49 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2019-05-09T17:58:04+08:00 ] 127.0.0.1 /carshop/index.php/Admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2019-05-09T17:58:10+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2019-05-09T17:58:13+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0061s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id LIMIT 1   [ RunTime:0.0037s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.rem AS rem,article.pic AS pic,cate.name AS name FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id ORDER BY article.id asc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2019-05-09T17:58:32+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Article/edit/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0079s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2019-05-09T17:58:43+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id WHERE ( 1 AND cateid=67 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT article.id AS id,article.title AS title,article.rem AS rem,article.pic AS pic,cate.name AS name FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id WHERE ( 1 AND cateid=67 ) ORDER BY article.id asc LIMIT 0,10   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2019-05-09T17:58:58+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2019-05-09T17:59:21+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Article/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0078s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0073s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT COUNT(*) AS tp_count FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Library\Think\Db\Driver.class.php 第 504 行.
+SQL: SELECT article.id AS id,article.title AS title,article.rem AS rem,article.pic AS pic,cate.name AS name FROM cs_article article LEFT JOIN cs_cate cate ON article.cateid=cate.id ORDER BY article.id asc LIMIT 0,10   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\3233ce5cce332a117b52d9b8831cbcfa.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2019-05-09T17:59:23+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Cate/lst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+NOTIC: [8] Undefined offset: 0 C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\1e31b38d8d9702701609b47afd2fec77.php 第 129 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2019-05-09T17:59:27+08:00 ] 127.0.0.1 /carshop/index.php/Admin/Cate/edit/id/67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Use of undefined constant unique - assumed 'unique' C:\PHPWAMP_IN3\wwwroot\carshop\ThinkPHP\Common\functions.php 第 588 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `cs_cate` ORDER BY sort asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant cateres - assumed 'cateres' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\PHPWAMP_IN3\wwwroot\carshop\Application\Runtime\Cache\Admin\a0bd7cc8f9bbe9aeb24188ff7ada7de1.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+

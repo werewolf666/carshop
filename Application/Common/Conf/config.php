@@ -1,4 +1,21 @@
 <?php
-return array(
-	//'配置项'=>'配置值'
+return array (
+  'DB_TYPE' => 'mysql',
+  'DB_HOST' => 'localhost',
+  'DB_NAME' => 'carshop',
+  'DB_USER' => 'root',
+  'DB_PWD' => 'root',
+  'DB_PORT' => '3306',
+  'DB_PREFIX' => 'cs_',
+  'DOMAIN' => 'http://1008.com/carshop',
+  'TITLE' => '飞天茅台汽车销售公司官网',
+  'KEYWORDS' => '茅台，汽车销售',
+  'DESCRIPTION' => '买贵州茅台送豪华汽车',
+  'EMAIL' => 'gzmt@qq.com',
+  'CONTACT' => '12315',
+  'FAX' => 'gzmt@qq.com',
+  'PHONE' => '12315',
+  'ICP' => '贵州茅台',
+  'COPY' => '贵州茅台',
+  'ADDRESS' => '茅台镇',
 );
